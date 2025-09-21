@@ -1,56 +1,57 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
+layout: single
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+permalink: /
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a freshman student in [IIIS, Tsinghua University](https://iiis.tsinghua.edu.cn/), majoring in Computer Science.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Currently(2025), I am an undergraduate researcher in LLM Agent field supervised by Professor [Yi Wu] at Tsinghua University. My research focuses on LLM and their applictions in different kind of enviroments. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Before college, I competed in Physics Olympiad during high school and won gold medal in the 40th Chinese Plysics Olympiad (CPhO) in the first semester of the second year of my high school. Afterward, I spent the rest part of my senior high school time in Tsinghua University as a preparatory student to study university-level knowledge in advance. During the preparatory period, I have built a solid foundation in the mathematical principles underlying computer science, deep learning and LLM, as well as proficiency in practical tools such as PyTorch.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Although I am still a beginner, I am eager to explore various opportunities, either in academia or industry. I also enjoy engagin with people who share similar interests and chatting about anything from research ideas to personal experiences. I am looking forward to working with classmates who share the similar research directions during my university years, and making progress together. Feel free to reach out if you'd like to connect!
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My resume is linked [here](/assets/pdf/cv.pdf).
+<!-- Currently, I am an undergraduate researcher in computer vision supervised by Professor [Kaiming He](https://people.csail.mit.edu/kaiming/) at MIT. My research focuses on deep generative models and their applications in computer vision and robotics. Previously, I'm fortunated to conduct research in robotics supervised by Professor [Huazhe Xu](https://hxu.rocks/) at IIIS, Tsinghua University. -->
+<!-- 
+Before college, I competed in the Physics Olympiad during high school and won a gold medal in the 39th Chinese Physics Olympiad (CPhO). Afterward, I spent a preparatory year at the IIIS, Tsinghua University, where I built a solid foundation in the mathematical principles underlying computer science and deep learning, as well as proficiency in practical tools such as PyTorch. -->
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!-- Although I am still a beginner, I am eager to explore various opportunities, either in academia or industry. I also enjoy engaging with people who share similar interests and chatting about anything from research ideas to personal experiences. Feel free to reach out if you'd like to connect! -->
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+<!-- ## Publications -->
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<!-- <figure class="third">
+    <a href="/assets/images/publications/wot.png"><img src="/assets/images/publications/wot.png"></a>
+    <p>Is Noise Conditioning Necessary for Denoising Generative Models?</p>
+    <!-- <figcaption>Caption describing these two images.</figcaption> -->
+<!-- </figure> -->
+<!-- 
+<div class="row">
+    <div class="column" style="display: inline-block; vertical-align: top; width: 25%;">
+        <a href="/assets/images/publications/h3dp.jpg"><img src="/assets/images/publications/h3dp.jpg"></a>
+    </div>
+    <div class="column" style="display: inline-block; vertical-align: top; width: 70%; margin-left: 3%">
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-bottom: 0;"><b>H³DP: Triply-Hierarchical Diffusion Policy for Visuomotor Learning</b></p>
+        <p style="display: inline-block; vertical-align: top; font-size: 14px; margin-top: 0; margin-bottom: 10px;">
+                <u><b>Yiyang Lu*</b></u>, 
+                <span style="color: gray;">Yufeng Tian*</span>, 
+                <span style="color: gray;">Zhecheng Yuan*</span>, 
+                <span style="color: gray;">Xianbang Wang</span>,
+                <span style="color: gray;">Pu Hua</span>,
+                <span style="color: gray;">Zhengrong Xue</span>,
+                <span style="color: gray;">Huazhe Xu</span>
+        </p>
+        <br>
+        <p style="display: inline-block; vertical-align: top; font-size: 16px; margin-top: 10px;">
+             <a href="https://lyy-iiis.github.io/h3dp/" style="text-decoration: none; color: blue;">[Project Page]</a>
+             <a href="https://arxiv.org/pdf/2505.07819" style="text-decoration: none; color: blue;">[Paper]</a>
+             <a href="https://arxiv.org/abs/2505.07819" style="text-decoration: none; color: blue;">[ArXiv]</a>
+        </p>
+    </div>
+</div> -->

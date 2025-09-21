@@ -1,0 +1,9 @@
+https://blog.csdn.net/qd1813100174/article/details/128604858
+
+Something to implement: 
+Main page in ./_pages/about.md
+CV part in ./assets/Curriculum_Vitae.pdf
+Author's photo in _config.yml
+
+Content Skipping in each folder
+Delete the skipping content in ./_data/_navigation.yml
