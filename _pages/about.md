@@ -15,7 +15,7 @@ Before college, I competed in Physics Olympiad during high school and won gold m
 
 Although I am still a beginner, I am eager to explore various opportunities, either in academia or industry. I also enjoy engagin with people who share similar interests and chatting about anything from research ideas to personal experiences. I am looking forward to working with classmates who share the similar research directions during my university years, and making progress together. Feel free to reach out if you'd like to connect!
 
-My resume is linked [here](/assets/pdf/cv.pdf).
+My resume is linked [here](/files/cv.pdf).
 <!-- Currently, I am an undergraduate researcher in computer vision supervised by Professor [Kaiming He](https://people.csail.mit.edu/kaiming/) at MIT. My research focuses on deep generative models and their applications in computer vision and robotics. Previously, I'm fortunated to conduct research in robotics supervised by Professor [Huazhe Xu](https://hxu.rocks/) at IIIS, Tsinghua University. -->
 <!-- 
 Before college, I competed in the Physics Olympiad during high school and won a gold medal in the 39th Chinese Physics Olympiad (CPhO). Afterward, I spent a preparatory year at the IIIS, Tsinghua University, where I built a solid foundation in the mathematical principles underlying computer science and deep learning, as well as proficiency in practical tools such as PyTorch. -->
